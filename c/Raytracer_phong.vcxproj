@@ -19,21 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fun_aux\escena.cpp" />
-    <ClCompile Include="source.cpp" />
-    <ClCompile Include="fun_aux\Filme.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="opt\Color.cpp" />
+    <ClCompile Include="opt\geometria.cpp" />
+    <ClCompile Include="opt\objeto.cpp" />
+    <ClCompile Include="opt\RayTracer.cpp" />
+    <ClCompile Include="opt\escena.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fun_aux\escena.hpp" />
-    <ClInclude Include="source.h" />
-    <ClInclude Include="fun_aux\Filme.hpp" />
+    <ClInclude Include="opt\Color.h" />
+    <ClInclude Include="opt\filme.h" />
+    <ClInclude Include="opt\geometria.h" />
+    <ClInclude Include="opt\Material.h" />
+    <ClInclude Include="opt\objeto.h" />
+    <ClInclude Include="opt\RayTracer.h" />
+    <ClInclude Include="opt\escena.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{90cbff7b-e827-4785-ae0f-57d6b0dd897a}</ProjectGuid>
-    <RootNamespace>prwill</RootNamespace>
+    <ProjectGuid>{59a783af-5a73-45d0-b1ec-ddcf7d57c8ab}</ProjectGuid>
+    <RootNamespace>Raytracerphong</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,14 +121,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\william\Documents\Libraries\SDL2-2.26.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\william\Documents\Libraries\SDL2-2.26.4\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -133,16 +136,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\william\Documents\Libraries\SDL2-2.26.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\william\Documents\Libraries\SDL2-2.26.4\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
