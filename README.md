@@ -8,7 +8,7 @@ El respositorio se destina a estudiar la teoria de renderizacion partiendo del u
 
 El repo contendra implementaciones de renderizacion por trazado de rayos y trazado de caminos.
 
-# Trazado de rayos:
+Trazado de rayos:
 
 Caracteristicas implementadas en c++:
 
@@ -23,7 +23,7 @@ Caracteristicas implementadas en c++:
   <img src="imagenes/test2.png" width="600">
 </h3>
 
-# Referencias:
+Referencias:
 
 [1] J. D. Foley, F. D. Van, A. Van Dam, S. K. Feiner, and J. F. Hughes, Computer
 graphics: principles and practice, vol. 12110. Addison-Wesley Professional, 1996.

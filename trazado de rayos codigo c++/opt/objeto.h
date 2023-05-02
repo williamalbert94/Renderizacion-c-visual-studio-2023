@@ -35,6 +35,7 @@ public:
     Point retornanormal(Point);
     Point retornainterseccion(rayo);
     esfera(Point,double);
+    Point translate(double tx, double ty, double tz);
 };
 
 

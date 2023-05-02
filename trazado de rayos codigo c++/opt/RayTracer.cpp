@@ -65,31 +65,32 @@ Color rayTracer::Trazarayo(rayo r, int depth){
 
           c_ = c_ + rayTracer::Trazarayo(reflectedRay, depth);
       }
+      //if (material->type == REFRACTIVO)
+      //{
+      //    depth += 1;
+
+      //    float n1 = 1.0; // índice de refracción del aire
+      //    float n2 = material->ior; // índice de refracción del material
+
+      //    rayo refractedRay = r.refraccion(hit->retornanormal(hit_light), hit_light, n1, n2);
+      //    refractedRay.p = refractedRay.p + (refractedRay.v * EPS); // Mover un poco la posición para evitar intersectar consigo mismo
+
+      //    c_ = c_ + rayTracer::Trazarayo(refractedRay, depth);
+      //}
   }
   return c_;
 }
-
-////
-//summario
-///
-
 
 Color rayTracer::EvalPhong(Point normal, Point p, rayo r, Material * m, objeto * o)
 {
     Color ret = Color(0.0, 0.0, 0.0, 1.0);
     normal.normalize();
-    // YOUR CODE HERE.
-    // There is ambient lighting irrespective of shadow.
-    // For each Light Source L do:
-    // Point pointLight =  scene->getNextLight();
     vector <Point> pointLights = Escena->luces;
 
 
-    Color LightColor = Color(1.0, 1.0, 1.0, 1.0); // White light
-    //LightColor = LightColor + LightColor;
-    double LightPower = 1.0; // Should be based on distance to light maybe?
+    Color LightColor = Color(1.0, 1.0, 1.0, 1.0);
+    double LightPower = 1.0; 
 
-    // Everything get hits by ambient light
     Color ambientColor = m->retornaambiente(p) * LightPower*0.25;
 
     Color diffuse = Color(0.0, 0.0, 0.0, 1.0);
@@ -97,174 +98,44 @@ Color rayTracer::EvalPhong(Point normal, Point p, rayo r, Material * m, objeto *
 
     for (int i = 0; i < pointLights.size(); i++)
     {
-        // If L visable
-        // Draw ray from light to object, end if blocked by an object
-
-        // Find Direction towards light
         Point lightDirection = (pointLights[i] - p);
         lightDirection.normalize();
 
-        rayo lightRay(p + lightDirection * EPS, lightDirection); // Ray from light to Object. Point in direction of light and make sure it hits a light
+        rayo lightRay(p + lightDirection * EPS, lightDirection); 
 
 
         objeto* hitObj = intersecta(lightRay);
 
         double reflectiveness = 1000.0 * m->kr;
 
-        // Check if in shadow
-        // Object should be in the way of the light
-
         if (hitObj == NULL || (normal * lightDirection < 0))
         {
-            // Add Difuse component
+
             Color diffuseColor = m->retornadifuso(p);
-            // ret = ret + diffuseColor;
-
-            // // Add specular component
             Color specularColor = m->retornaespecular(p);
-            // ret = ret + specularColor;
-
-            //double distance = (pointLights[i] - p).length;
-
-            // Calc Diffuse 
-
             double lDotNormal = normal * lightDirection;
-
             lDotNormal = lDotNormal < 0 ? 0.0f : lDotNormal; // Makes sure angle > 0
-
             diffuse = diffuse + (diffuseColor * LightPower * lDotNormal);
-
             diffuse = diffuse + (diffuseColor * LightPower * m->kd * lDotNormal);
-
-            // Calc Specular
-            // SPECULAR
             Point toCamera = r.v * -1;
             toCamera.normalize();
-
             Point disFromLight = toCamera + lightDirection;
-            disFromLight.normalize();   // divide by length
+            disFromLight.normalize();  
             double specReflec = disFromLight * normal;
-            specReflec = specReflec < 0 ? 0.0f : specReflec; // Makes sure angle > 0
-
+            specReflec = specReflec < 0 ? 0.0f : specReflec; 
             double refectivity = pow(specReflec, reflectiveness);
-
             specularHighlight = specularHighlight + specularColor * LightPower * refectivity;
         }
-
-        //else // In shadow, some object blocks light 
-        {
-            // cout << "\n Lightx: " << pointLights[i].x << endl;
-            // cout << "\n Lighty: " << pointLights[i].y << endl;
-
-            // Calculate Radance, rad at point
-            // rad = rad + Radiance at point
-            // Code taken from Assignment 3 shader
-
-            //ret = ret + pointLights[i]
-            // Something blocking light path
-
-        }
-
-
     }
-
-
-    // if (typeid(*o) == typeid(Triangle) )
-    //   ret = Color(0.1,1.0,0.0,0.0);
-    // else
-    //   ret = Color(0.1,1.0,1.0,0.0);
-
-    Color finalColor = ambientColor+diffuse + specularHighlight; // Add all components of light together
-
+    Color finalColor = ambientColor+diffuse + specularHighlight;
     return finalColor;
-
-  //  Color ret = Color(0.0, 0.0, 0.0, 1.0);
-  //  normal.normalize();
-  //  vector <Point> pointLights = Escena->luces;
-
-
-  //  Color LightColor = Color(1.0, 1.0, 1.0, 1.0); // White light
-
-  //  double LightPower = 1.0; 
-
-  //  double atenuacion = 0.3;
-
-  //  Color ambientColor = m->retornaambiente(p) * LightPower *atenuacion;
-
-  //  Color diffuse = Color(0.0, 0.0, 0.0, 1.0);
-  //  Color specularHighlight = Color(0.0, 0.0, 0.0, 1.0);
-
-  //  for (int i = 0; i < pointLights.size(); i++)
-  //  {
-
-  //      Point lightDirection = (pointLights[i] - p);
-  //      lightDirection.normalize();
-
-  //      rayo lightrayo(p + lightDirection * EPS, lightDirection); 
-
-
-  //      objeto* hitObj = intersecta(lightrayo);
-
-  //      double reflectiveness = 1000.0 * m->kr;
-
- 
-
-  //      if (hitObj == NULL || (normal * lightDirection < 0))
-  //      {
-
-  //          Color diffuseColor = m->retornadifuso(p);
-
-
-
-  //          Color specularColor = m->retornaespecular(p);
-
-
-
-  //          double lDotNormal = normal * lightDirection;
-
-  //          lDotNormal = lDotNormal < 0 ? 0.0f : lDotNormal; 
-
-  //          diffuse = diffuse + (diffuseColor * LightPower * lDotNormal);
-
-  //          diffuse = diffuse + (diffuseColor * LightPower * m->kd * lDotNormal);
-
-
-  //          Point toCamera = r.v * -1;
-  //          toCamera.normalize();
-
-  //          Point disFromLight = toCamera + lightDirection;
-  //          disFromLight.normalize();   // divide by length
-  //          double specReflec = disFromLight * normal;
-  //          specReflec = specReflec < 0 ? 0.0f : specReflec;
-
-  //          double refectivity = pow(specReflec, reflectiveness);
-
-  //          specularHighlight = specularHighlight + specularColor * LightPower * refectivity;
-  //      }
-
-
-
-
-  //  }
-
-  //  Color finalColor = diffuse ; // Add all components of light together
-
-
-  //return finalColor;
 }
-
 
 
 ///////////////////////////////////
 // #summary
 // funcion de renderizacion
 ///////////////////////////////////
-
-
-
-
-
-
 
 Color rayTracer::renderiza(int x, int y){
   Color c = Color(0.0,0.0,0.0,0.0);

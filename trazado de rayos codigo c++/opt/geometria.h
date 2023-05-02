@@ -29,7 +29,9 @@ public:
     rayo(Point,Point);
 
     rayo reflexion(Point, Point);
-    Point p,v; 
+    rayo refraccion(Point normal, Point m, float n1, float n2);
+
+    Point p,v,d; 
 
 
 

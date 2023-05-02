@@ -83,6 +83,28 @@ Point esfera::retornanormal(Point p){
     return ret;
 }
 
+//transformacion geometrica solo para una esfera
+
+Point esfera::translate(double tx, double ty, double tz) {
+    double mat[4][4] = {
+        {1, 0, 0, tx},
+        {0, 1, 0, ty},
+        {0, 0, 1, tz},
+        {0, 0, 0, 1}
+    };
+
+    double vec[4] = { tx, ty, tz, 1 };
+    double res[4] = { 0 };
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            res[i] += mat[i][j] * vec[j];
+        }
+    }
+
+    return Point(res[0], res[1], res[2]);
+}
+
 bool resuelvecuadratica(const double &a, const double &b, const double &c, double &t0, double &t1)
 {
     double eq_intersect = b * b - 4.0 * a * c;
