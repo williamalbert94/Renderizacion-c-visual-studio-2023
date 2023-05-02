@@ -18,5 +18,7 @@ Referencias:
 
 [1] J. D. Foley, F. D. Van, A. Van Dam, S. K. Feiner, and J. F. Hughes, Computer
 graphics: principles and practice, vol. 12110. Addison-Wesley Professional, 1996.
+
+
 [2] P. Shirley, “Ray tracing in one weekend,” Amazon Digital Services LLC, vol. 1,
 2016
