@@ -4,11 +4,20 @@
 
 Autor:william
 
-El respositorio se destina a estudiar la teoria de renderizacion partiendo del uso de c++ y visual studio.
+El respositorio se destina a estudiar la teoria de renderizacion partiendo del uso de c++ y visual studio. El codigo en colab marca una guia base de como funciona la renderizacion usando trazado de rayos, en cuanto al codigo en c++ profundiza mucho mas en varios aspectos teoricos visto la literatura.
 
 El repo contendra implementaciones de renderizacion por trazado de rayos y trazado de caminos.
 
 Trazado de rayos:
+
+Caracteristicas implementadas en c++:
+
+- Escena creada con esferas, cajas y/o planos.
+- Escena iluminada con 2 fuentes de luz puntual.
+- Escena renderizada con iluminacion directa, usando el modelo Phong, con cálculo de sombras.
+- Implementacion de antialias (supersampling).
+- Instancia representada por triangulos.
+- Calculo de la reflexión y refracción de la luz.
 
 <h3 align="center">
   <img src="imagenes/test2.png" width="600">
