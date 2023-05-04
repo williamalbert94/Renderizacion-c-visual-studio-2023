@@ -1,3 +1,8 @@
+# ¿Metodo?
+
+Phong (modelo de iluminacion directa)
+
+
 # ¿como usar?
 
 El codigo fue ejecutado en windows junto con visual studio, usando ISO C++20 (importante por que sino el codigo no correra, dara error).
