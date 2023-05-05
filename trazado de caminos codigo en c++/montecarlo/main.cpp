@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
-
 #include <math.h>
-#include "opt/RayTracer.h"
 
 
 using namespace std;
@@ -13,25 +11,23 @@ int fov = 55;
 
 int sampling = 2;
 
-rayTracer* raytracer;
 
 
-int main(){
+
+int main() {
 
 	string fileName;
 
-	cout<< "\nResolution: \nWidth: "<< width << "\theight: " << height<< endl;
+	cout << "\nResolution: \nWidth: " << width << "\theight: " << height << endl;
 
 
-	cout<< "\nFov: " << fov << endl;
+	cout << "\nFov: " << fov << endl;
 
-	fileName  = "esfera_sin_sombra_y_ambiente.ppm";
-	raytracer = new rayTracer(escena::creaescena(width, fov),sampling, 16);
-
-	cout<< "\nFile saved as: "<< fileName << endl;
+	fileName = "esfera_sin_sombra_y_ambiente.ppm";
+	cout << "\nFile saved as: " << fileName << endl;
 
 
-    //render function
+	//render function
 	float pixels[width][height][3];
 
 	// psudocodigo:
@@ -43,17 +39,15 @@ int main(){
 			//film.SetValue(i, j, c)
 
 
-    for(int i = 0; i < width; i++){
+	for (int i = 0; i < width; i++) {
 		for (int j = 0; j < height; j++) {
+			Color rad{ 1,0,0 };
 
-			Color rad = raytracer->renderiza(i, j);
-			std::cout << rad.r<< rad.g << rad.b << std::endl;
-
-			pixels[i][j][0] = rad.r; 
-			pixels[i][j][1] = rad.g; 
-			pixels[i][j][2] = rad.b; 
+			pixels[i][j][0] = rad.r;
+			pixels[i][j][1] = rad.g;
+			pixels[i][j][2] = rad.b;
 		}
-    }
+	}
 
 
 	ofstream testimage;
@@ -65,9 +59,10 @@ int main(){
 			{
 				testimage << int(pixels[i][j][k] * (width - 1)) << " ";
 			}
-			testimage << "\t";	
+			testimage << "\t";
 		}
-		testimage << "\n";	}
+		testimage << "\n";
+	}
 
 	testimage.close();
 
