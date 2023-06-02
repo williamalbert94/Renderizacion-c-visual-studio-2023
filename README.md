@@ -36,7 +36,7 @@ Caracteristicas implementadas en c++:
 fonte de luz).
 
 <h3 align="center">
-  <img src="imagenes/path_tracing1.png" width="600">
+  <img src="imagenes/experimento 1.png" width="600">
 </h3>
 
 
