@@ -1,0 +1,112 @@
+﻿  main.cpp
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(964,11): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1033,19): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1082,11): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1104,19): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1330,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1368,50): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(1388,50): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(3297,45): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(3325,71): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(3343,52): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4457,45): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4585,61): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4591,80): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4599,38): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4601,25): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4609,50): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4644,26): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4647,23): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4674,21): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4677,63): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4688,37): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4726,58): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4904,26): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4925,20): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(4930,20): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5062,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5066,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5074,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5082,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5095,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5112,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5116,21): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5258,38): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5286,17): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5297,44): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5298,38): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5312,23): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5331,52): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5349,48): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5360,32): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5369,45): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5396,33): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5397,34): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5611,31): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5615,48): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5620,23): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5631,20): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5660,52): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5667,52): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5684,23): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5714,23): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5747,20): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5860,14): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5869,26): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5874,42): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5878,42): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(5927,79): warning C4312: 'conversión de tipo': conversión de 'int' a 'float *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\stb\stb_image.h(6142,21): warning C4312: 'conversión de tipo': conversión de 'int' a 'unsigned char *' de mayor tamaño
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\vec3.h(54,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\vec3.h(133,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\hitable.h(14,11): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\hitable.h(15,28): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\hitable.h(96,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(12,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(13,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(15,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(22,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(23,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(25,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(35,49): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(35,39): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(35,29): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(56,30): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\pdf.h(83,49): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\esfera.h(23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\esfera.h(25,27): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\hitable_list.h(31,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\esfera\hitable_list.h(67,40): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\camera\camera.h(10,39): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\camera\camera.h(10,29): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\camera\camera.h(22,25): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\camera\camera.h(38,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(29,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(30,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(31,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(59,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(59,54): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\perlin.h(59,36): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\material.h(18,15): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\material.h(24,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\material.h(76,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\material\material.h(122,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(13,65): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(13,41): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(25,57): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(25,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(40,69): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(40,41): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(53,58): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\aarect.h(53,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\surface_texture.h(17,12): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\surface_texture.h(18,12): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\surface_texture.h(23,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\surface_texture.h(24,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\opt\surface_texture.h(25,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\main.cpp(34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\main.cpp(60,80): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\main.cpp(61,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\main.cpp(62,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  montecarlo_path.vcxproj -> C:\Users\william\Desktop\proyecto_1_vision_computacional\parte1\montecarlo_path\x64\Debug\montecarlo_path.exe
