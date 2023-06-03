@@ -39,6 +39,9 @@ fonte de luz).
   <img src="imagenes/experimento 1.png" width="600">
 </h3>
 
+<h3 align="center">
+  <img src="imagenes/exp2.png" width="600">
+</h3>
 
 
 Referencias:
