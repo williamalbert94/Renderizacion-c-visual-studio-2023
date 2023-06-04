@@ -34,6 +34,7 @@ Caracteristicas implementadas en c++:
 - Instancia representada por triangulos.
 - Os caminhos devem ter profundidade mínima de 4 (isto é, o quarto vértice deve estar na
 fonte de luz).
+-ruleta rusa optimizacion.
 
 <h3 align="center">
   <img src="imagenes/experimento 1.png" width="600">
@@ -43,6 +44,11 @@ fonte de luz).
   <img src="imagenes/exp2.png" width="600">
 </h3>
 
+Implementacion de un objeto totalmente reflectivo.
+
+<h3 align="center">
+  <img src="imagenes/corenll01_2068_16.ppm.png" width="600">
+</h3>
 
 Referencias:
 
