@@ -44,10 +44,10 @@ fonte de luz).
   <img src="imagenes/exp2.png" width="600">
 </h3>
 
-Implementacion de un objeto totalmente reflectivo.
+Implementacion de un objeto totalmente reflectivo, refractivo y difuso, considerando el modelo de lambertian.
 
 <h3 align="center">
-  <img src="imagenes/corenll01_2068_16.ppm.png" width="600">
+  <img src="imagenes/Materials.png" width="600">
 </h3>
 
 Referencias:
